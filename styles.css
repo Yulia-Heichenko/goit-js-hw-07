@@ -1,0 +1,8 @@
+.image-list {
+display: flex;
+flex-direction: column;
+}
+
+.image-list__item {
+    list-style: none;
+}
