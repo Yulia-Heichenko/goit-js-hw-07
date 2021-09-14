@@ -14,8 +14,8 @@ const createsMarkup = ingredients.forEach(item => {
     
     const newListItem = document.createElement('li')
     newListItem.textContent = item
+    listEl.append(newListItem)
 })
-
 // const itemOneEl = document.createElement('li')
 // itemOneEl.textContent = 'Картошка'
 
@@ -34,5 +34,3 @@ const createsMarkup = ingredients.forEach(item => {
 // const itemSixEl = document.createElement('li')
 // itemSixEl.textContent = 'Приправы'
 
-// listEl.append(itemOneEl, itemTwoEl, itemThreeEl, itemFourEl, itemFiveEl, itemSixEl)
-// console.log(listEl)
