@@ -10,23 +10,29 @@ const ingredients = [
 const listEl = document.querySelector('#ingredients')
 console.log(listEl)
 
-const itemOneEl = document.createElement('li')
-itemOneEl.textContent = 'Картошка'
+const createsMarkup = ingredients.forEach(item => {
+    
+    const newListItem = document.createElement('li')
+    newListItem.textContent = item
+})
 
-const itemTwoEl = document.createElement('li')
-itemTwoEl.textContent = 'Грибы'
+// const itemOneEl = document.createElement('li')
+// itemOneEl.textContent = 'Картошка'
 
-const itemThreeEl = document.createElement('li')
-itemThreeEl.textContent = 'Чеснок'
+// const itemTwoEl = document.createElement('li')
+// itemTwoEl.textContent = 'Грибы'
 
-const itemFourEl = document.createElement('li')
-itemFourEl.textContent = 'Помидоры'
+// const itemThreeEl = document.createElement('li')
+// itemThreeEl.textContent = 'Чеснок'
 
-const itemFiveEl = document.createElement('li')
-itemFiveEl.textContent = 'Зелень'
+// const itemFourEl = document.createElement('li')
+// itemFourEl.textContent = 'Помидоры'
 
-const itemSixEl = document.createElement('li')
-itemSixEl.textContent = 'Приправы'
+// const itemFiveEl = document.createElement('li')
+// itemFiveEl.textContent = 'Зелень'
 
-listEl.append(itemOneEl, itemTwoEl, itemThreeEl, itemFourEl, itemFiveEl, itemSixEl)
-console.log(listEl)
+// const itemSixEl = document.createElement('li')
+// itemSixEl.textContent = 'Приправы'
+
+// listEl.append(itemOneEl, itemTwoEl, itemThreeEl, itemFourEl, itemFiveEl, itemSixEl)
+// console.log(listEl)

@@ -24,6 +24,10 @@ function reateBoxes(event) {
     })
     .join('')
   console.log(boxRef)
+  // if (boxRef) {
+  //   console.log('yes')
+    
+  // }
 }
 
 function destroyBoxes() {

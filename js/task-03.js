@@ -20,7 +20,7 @@ imagesListEl.classList.add('image-list')
 const makeListItemPowMarkup = ({url, alt}) => {
     return `
     <li  class = "image-list__item"><img src = ${url}, 
-    alt: ${alt}></li>
+    alt=${alt}></li>
     `}
 console.log(images)
 
