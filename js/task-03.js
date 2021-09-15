@@ -19,10 +19,9 @@ imagesListEl.classList.add('image-list')
 
 const makeListItemPowMarkup = ({url, alt}) => {
     return `
-    <li  class = "image-list__item"><img src = ${url}, 
-    alt=${alt}></li>
-    `}
-console.log(images)
+    <li  class = "image-list__item"><img src='${url}', 
+    alt='${alt}', width=600, height=350></li>
+`}
 
 const makeListItemPows = images
     .map(makeListItemPowMarkup)
@@ -30,5 +29,3 @@ const makeListItemPows = images
     
 imagesListEl.insertAdjacentHTML('afterbegin', makeListItemPows)
 
-console.log(makeListItemPows)
-console.log(imagesListEl)
